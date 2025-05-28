@@ -1,0 +1,20 @@
+{
+  "1361816741608558723": {
+    "serverId": "145491",
+    "apiToken": "b78be7941393cc99e49e1ec232fc22ec981ef96726c90c4a5200c9baa5cdefda",
+    "banLogChannelId": "1372724754611703889",
+    "rconTerminalChannelId": "1372724803626340353",
+    "onlineListChannelId": "1377128729960120330",
+    "autoListEnabled": true,
+    "communityListEnabled": false
+  },
+  "1319875992298328066": {
+    "serverId": "u1a3bd649f",
+    "apiToken": "4a10e8433b58b32720dde7a7e8649401ff129cc0bd16d407b2fcbc7c5f463890",
+    "banLogChannelId": "1322304739655942298",
+    "onlineListChannelId": "1377246841090867273",
+    "rconTerminalChannelId": "1376165453272973434",
+    "autoListEnabled": true,
+    "communityListEnabled": true
+  }
+}

@@ -1,0 +1,40 @@
+
+=== CRASH LOG 2025-05-28T10:09:35.846Z ===
+Context: Uncaught Exception
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5000
+Stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:5000
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at doListen (node:net:2139:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+=== CRASH LOG 2025-05-28T15:52:29.023Z ===
+Context: Unhandled Promise Rejection
+Error: Unknown Message
+Stack: DiscordAPIError[10008]: Unknown Message
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/src/lib/handlers/Shared.ts:148:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/src/lib/handlers/SequentialHandler.ts:417:20)
+    at async SequentialHandler.queueRequest (/home/runner/workspace/node_modules/@discordjs/rest/src/lib/handlers/SequentialHandler.ts:169:11)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/src/lib/REST.ts:210:20)
+    at async GuildMessageManager.edit (/home/runner/workspace/node_modules/discord.js/src/managers/MessageManager.js:188:15)
+
+=== CRASH LOG 2025-05-28T16:02:41.837Z ===
+Context: Unhandled Promise Rejection
+Error: Unknown Message
+Stack: DiscordAPIError[10008]: Unknown Message
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/src/lib/handlers/Shared.ts:148:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/src/lib/handlers/SequentialHandler.ts:417:20)
+    at async SequentialHandler.queueRequest (/home/runner/workspace/node_modules/@discordjs/rest/src/lib/handlers/SequentialHandler.ts:169:11)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/src/lib/REST.ts:210:20)
+    at async GuildMessageManager.edit (/home/runner/workspace/node_modules/discord.js/src/managers/MessageManager.js:188:15)
+
+=== CRASH LOG 2025-05-28T16:51:01.492Z ===
+Context: Uncaught Exception
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5000
+Stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:5000
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at doListen (node:net:2139:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)

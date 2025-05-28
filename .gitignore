@@ -1,0 +1,10 @@
+node_modules
+dist
+.DS_Store
+server/public
+vite.config.ts.*
+*.tar.gznode_modules/
+.env
+rcon-bot-complete.tar.gz git add .gitignore
+node_modules/
+.env
