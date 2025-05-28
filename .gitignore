@@ -3,8 +3,9 @@ dist
 .DS_Store
 server/public
 vite.config.ts.*
-*.tar.gznode_modules/
+*.tar.gz
 .env
-rcon-bot-complete.tar.gz git add .gitignore
-node_modules/
-.env
+attached_assets/
+crash-log.txt
+rcon-bot-complete.tar.gz
+rcon-bot-backup.tar.gz
